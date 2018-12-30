@@ -1,0 +1,60 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family:'Segoe Ui light';
+	font-size: 20px;
+	font-weight: 20px;
+}
+
+.header h1{
+    padding: 20px;
+    font-size: 25px;
+}
+
+i{
+    color: red;
+}
+.rounded{
+
+    border-style: dashed;
+  border-color: purple;
+  width: 150px;
+  margin-left: 20px;
+}
+input[type="text"] {
+    width: 150px;
+    margin: 0;
+}
+input,h3,h4{
+    margin-left: 30px;
+}
+
+.header{
+	background-color: purple;
+    width: 600px;
+    height: 70px;
+	color: white;
+	margin: 10px auto;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+.wrapper{
+	margin: 20px auto;
+    width: 300px;
+}
+.wrapperjr{
+	margin: 20px auto;
+	width: 300px;
+	height: 100px;
+    border-radius: 20px;
+}
+
+.w_f_i{
+	font-size: 20px;
+	border:none;
+	border-bottom: 50px;
+}
+
+
+

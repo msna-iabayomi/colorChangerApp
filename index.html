@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+    <h1>ColorInput</h1>
+  </div>
+  <div class="wrapper">
+    <h3>Please enter any Color or any Hexadecimal Value e.g <i>red or #ae23f2</i> </h3>
+    <h4>and see what happens</h4>
+    <div class="rounded">
+    <input type="text" class="w_f_i"/>
+</div>
+    <!-- remainber h4 has a class=m_u_d -->
+    <h4><span class="color"></span>is inputted</h4>
+   
+  </div>
+  <div class="wrapperjr">
+
+  </div>
+  <script>
+    let input = document.querySelector(".w_f_i");
+    let colorBox = document.querySelector(".wrapperjr");
+    let colorText = document.querySelector(".color");
+    // let colorMud= document.querySelector(".m_u_d");
+
+    input.oninput = () =>{
+      let color = input.value;
+      colorBox.style.background = color;
+      // colorMud.style.bottom = "20px";
+      colorText.innerHTML = color +" ";
+      colorText.style.color =  color;
+    }
+  </script>
+</body>
+</html>
